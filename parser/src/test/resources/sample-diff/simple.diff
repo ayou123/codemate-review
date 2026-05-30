@@ -1,0 +1,9 @@
+diff --git a/src/main/java/Foo.java b/src/main/java/Foo.java
+index 1234567..abcdefg 100644
+--- a/src/main/java/Foo.java
++++ b/src/main/java/Foo.java
+@@ -41,1 +42,3 @@ public class Foo {
+-        return old;
++        return newA;
++        return newB;
++        return newC;

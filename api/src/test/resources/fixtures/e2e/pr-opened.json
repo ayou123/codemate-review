@@ -1,0 +1,14 @@
+{
+  "action": "opened",
+  "pull_request": {
+    "number": 1,
+    "head": { "sha": "0000000000000000000000000000000000000123" },
+    "base": { "sha": "0000000000000000000000000000000000000456" }
+  },
+  "repository": {
+    "full_name": "o/r"
+  },
+  "installation": {
+    "id": 42
+  }
+}

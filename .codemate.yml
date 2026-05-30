@@ -1,0 +1,35 @@
+version: 1
+
+# Agent 开关
+agents:
+  bug: true
+  security: true
+  performance: true
+  style: true
+  design: false
+
+# 严重级别阈值（低于此级别不评论）
+min_severity: medium
+
+# 单 PR 最多评论数
+max_comments_per_pr: 20
+
+# 置信度阈值
+min_confidence: 70
+
+# 排除文件
+exclude:
+  - "**/generated/**"
+  - "**/*.proto"
+  - "src/test/**"
+
+# 自定义规则（自然语言）
+custom_rules:
+  - "禁止在 Service 层使用 System.out"
+  - "所有 public API 必须有 JavaDoc"
+
+# LLM 配置
+llm:
+  provider: deepseek
+  model: deepseek-chat
+  max_tokens_per_review: 50000

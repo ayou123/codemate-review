@@ -1,0 +1,20 @@
+diff --git a/A.java b/A.java
+index 1234567..abcdefg 100644
+--- a/A.java
++++ b/A.java
+@@ -1,1 +1,2 @@
+ line
++added1
+@@ -10,1 +11,2 @@
+ line
++added2
+diff --git a/B.java b/B.java
+index 89abcde..f012345 100644
+--- a/B.java
++++ b/B.java
+@@ -1,1 +1,2 @@
+ line
++addedB1
+@@ -10,1 +11,2 @@
+ line
++addedB2

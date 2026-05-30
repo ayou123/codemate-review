@@ -1,0 +1,28 @@
+version: 1
+
+agents:
+  bug: true
+  security: true
+  performance: true
+  style: true
+  design: false
+
+min_severity: medium
+
+max_comments_per_pr: 20
+
+min_confidence: 70
+
+exclude:
+  - "**/generated/**"
+  - "**/*.proto"
+  - "src/test/**"
+
+custom_rules:
+  - "禁止在Service层使用System.out"
+  - "所有public API必须有JavaDoc"
+
+llm:
+  provider: deepseek
+  model: deepseek-chat
+  max_tokens_per_review: 50000

@@ -1,0 +1,9 @@
+{
+  "name": "Foo.java",
+  "path": "Foo.java",
+  "sha": "abc",
+  "size": 12,
+  "type": "file",
+  "encoding": "base64",
+  "content": "Y2xhc3MgRm9vIHt9"
+}

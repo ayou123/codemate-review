@@ -1,0 +1,7 @@
+diff --git a/Foo.java b/Foo.java
+index 1..2 100644
+--- a/Foo.java
++++ b/Foo.java
+@@ -1,1 +1,2 @@
+ public class Foo { public void bar() {} }
++// new line

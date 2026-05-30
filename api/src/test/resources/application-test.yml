@@ -1,0 +1,28 @@
+spring:
+  autoconfigure:
+    exclude:
+      - org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+      - org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration
+      - org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration
+      - org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration
+      - org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration
+codemate:
+  queue:
+    enabled: false
+  github:
+    webhook-secret: testsecret
+    app-token: test
+    api-base: http://localhost
+  llm:
+    provider: deepseek
+    deepseek:
+      api-key: sk-test
+      base-url: http://localhost
+      model: deepseek-chat
+    qwen:
+      api-key: test
+      model: qwen-max
+  review:
+    max-comments-per-pr: 20
+    min-confidence: 70
+    max-tokens-per-review: 50000
